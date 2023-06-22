@@ -1,0 +1,66 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: inherit !important;
+    box-shadow: none !important;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 90% !important;
+}
+
+@mixin buttonSettings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button, .phone-number, .contact-button, .ua-language, .ru-language {
+    color: black !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+}
+
+.button, .translate {
+    margin-left: 15px !important;
+}
+
+.buttons-container, .contacts-container, .translate {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone-number, .contact-button, .translate {
+    font-weight: bold;
+}
+
+.contact-button {
+    @include buttonSettings();
+    width: 140px;
+    height: 45px;
+    margin-left: 25px;
+    color: white !important;
+    background-color: rgb(137, 154, 165);
+}
+
+.ua-language {
+    @include buttonSettings();
+    width: 33px;
+    height: 33px;
+    margin-left: 10px;
+    color: white !important;
+    background-color: rgb(137, 154, 165);
+    border-radius: 3px !important;
+}
+
+.ru-language {
+    @include buttonSettings();
+    width: 33px;
+    height: 33px;
+    margin-left: 10px;
+    color: rgb(137, 154, 165) !important;
+    background-color: white;
+}
