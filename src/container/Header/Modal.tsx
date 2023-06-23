@@ -54,7 +54,7 @@ const CustomModal: React.FC<ModalProps> = ({ open, onClose }) => {
                             <div className="modal-description">Ваші дані успішно надіслані.</div>
                         </div>
                     ) : (
-                        <div>
+                        <div className='modal-default'>
                             <div className="modal-title">Залишайте заявку</div>
                             <div className="modal-description">Ми зв’яжемося з вами найближчим часом.</div>
                             <div className="modal-forms">
