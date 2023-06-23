@@ -6,10 +6,23 @@ import Button from '@mui/material/Button'
 import logo from 'assets/logo.png'
 import './Header.scss'
 import Swiper from './Swiper'
+import CustomModal from './Modal'
+import { useState } from 'react'
 
 const buttons = ['Компанія', 'Продукція', 'Статті', 'Рішення', 'Контакти']
 
 function ResponsiveAppBar() {
+
+    const [isModalOpen, setIsModalOpen] = useState(false)
+
+    const handleContactButtonClick = () => {
+        setIsModalOpen(true);
+    }
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+    }
+
     return (
         <>
             <AppBar position="static" className='header'>
@@ -31,9 +44,10 @@ function ResponsiveAppBar() {
                             <div className="phone-number">
                                 0 (800) 00-00-00
                             </div>
-                            <div className="contact-button">
+                            <div className="contact-button" onClick={handleContactButtonClick}>
                                 Зв'язатись
                             </div>
+                            <CustomModal open={isModalOpen} onClose={handleCloseModal} />
                         </div>
                         <div className="translate">
                             <div className="ua-language">
