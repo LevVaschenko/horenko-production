@@ -1,12 +1,12 @@
-.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+.header {
     background-color: inherit !important;
     box-shadow: none !important;
 }
 
-.css-1oqqzyl-MuiContainer-root {
+.header-container {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    max-width: 90% !important;
+    max-width: 1330px !important;
 }
 
 @mixin buttonSettings {
@@ -33,6 +33,10 @@
     align-items: center;
 }
 
+.buttons-container {
+    margin-left: 95px;
+}
+
 .phone-number, .contact-button, .translate {
     font-weight: bold;
 }
@@ -43,7 +47,7 @@
     height: 45px;
     margin-left: 25px;
     color: white !important;
-    background-color: rgb(137, 154, 165);
+    background-color: rgb(114, 138, 148);
 }
 
 .ua-language {
@@ -52,8 +56,9 @@
     height: 33px;
     margin-left: 10px;
     color: white !important;
-    background-color: rgb(137, 154, 165);
+    background-color: rgb(114, 138, 148);
     border-radius: 3px !important;
+    font-size: 12px !important;
 }
 
 .ru-language {
@@ -61,6 +66,7 @@
     width: 33px;
     height: 33px;
     margin-left: 10px;
-    color: rgb(137, 154, 165) !important;
+    color: rgb(114, 138, 148) !important;
     background-color: white;
+    font-size: 12px !important;
 }

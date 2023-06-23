@@ -1,0 +1,44 @@
+.cookies-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 85px;
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.cookies-info {
+    width: 280px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#cookie-accept-button {
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 138, 148);
+    border: 2px solid rgb(114, 138, 148);
+    background-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.cookies-text {
+    color: rgb(114, 138, 148);
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
