@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './Cookies.scss'
+import '../Responsive/Desktop-responsive.scss'
+import '../Responsive/Mobile-responsive.scss'
+import '../Responsive/Tablet-responsive.scss'
 
 type Props = {}
 

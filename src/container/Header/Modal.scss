@@ -126,9 +126,9 @@
 }
 
 .phone-uninput {
-    color: red !important;
-    background-color: rgba(255, 20, 145, 0.15);
-    padding-left: 15px !important;
+    // color: red !important;
+    // background-color: rgba(255, 20, 145, 0.15);
+    padding-left: 50px !important;
 }
 
 .custom-modal {
@@ -145,6 +145,10 @@
     color: red !important;
     background-color: rgba(255, 20, 145, 0.15);
     padding-left: 15px !important;
+}
+
+.empty-input input[type="tel"] {
+    padding-left: 50px !important;
 }
 
 .form-submitted {

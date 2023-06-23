@@ -3,6 +3,9 @@ import Modal from '@mui/material/Modal'
 import './Modal.scss'
 import Check from 'assets/Check.png'
 import InputMask from 'react-input-mask'
+import '../Responsive/Desktop-responsive.scss'
+import '../Responsive/Mobile-responsive.scss'
+import '../Responsive/Tablet-responsive.scss'
 
 type ModalProps = {
     open: boolean

@@ -7,6 +7,9 @@ import 'swiper/css/scrollbar'
 import './Swiper.scss'
 import Container from '@mui/material/Container'
 import Fan from 'assets/Fan.png'
+import '../Responsive/Desktop-responsive.scss'
+import '../Responsive/Mobile-responsive.scss'
+import '../Responsive/Tablet-responsive.scss'
 
 export default () => {
     return (

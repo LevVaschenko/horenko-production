@@ -1,13 +1,9 @@
-.swiper {
-    height: 545px;
-}
-
 .swiper-scrollbar, .swiper-button-next, .swiper-button-prev {
     display: none;
 }
 
 .swiper-pagination-bullet {
-    width: 30.3%;
+    width: 32.63%;
     height: 5px;
     border-radius: 10px;
 }
@@ -17,9 +13,9 @@
 }
 
 .swiper-container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    max-width: 1500px !important;
+    // padding-left: 0 !important;
+    // padding-right: 0 !important;
+    // max-width: 1500px !important;
     background-color: rgb(246, 249, 250);
 }
 
@@ -33,7 +29,7 @@
 
 .swiper-slide {
     max-width: 1330px !important;
-    padding-left: 90px;
+    // padding-left: 90px;
 }
     
 .col-1 {

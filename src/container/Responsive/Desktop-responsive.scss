@@ -1,0 +1,26 @@
+// <767px - mobile
+// >768px  - tablet
+// >1200 - desktop
+
+@media (min-width: 1200px) {
+    .header-container {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+        // min-width: 1110px !important;
+    }
+    .swiper-slide {
+        padding-left: 0px;
+    }
+    // .slider-info {
+    //     width: 100%;
+    // }
+    .swiper-container {
+        min-width: 100% !important;
+    }
+    .swiper {
+        max-width: 1140px;
+    }
+    .buttons-container {
+        margin-left: 0px;
+    }
+}
